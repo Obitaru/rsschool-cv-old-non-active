@@ -75,5 +75,5 @@ publisher: O'reilly;
 *Russian - native;
 *English - elementary;
 
-
+[My project](https://github.com/Obitaru/rsschool-cv/tree/gh-pages#readme)
 
