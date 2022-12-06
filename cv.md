@@ -71,6 +71,9 @@ publisher: O'reilly;
 * Fire alarm installation.
 * low-voltage network installer
 
+## Languages
+*Russian - native;
+*English - elementary;
 
 
 
