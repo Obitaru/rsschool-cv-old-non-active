@@ -1,1 +1,140 @@
+body,
+html {
+    background-color: rgb(205, 197, 198);
+    color: rgb(231, 222, 222);
+}
 
+.wrapper {
+    width: 1024px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(65, 65, 96);
+    box-shadow: 14px 14px 36px 15px rgba(22, 22, 22, 0.2);
+    border-radius: 80px;
+}
+
+
+h1 {
+
+    text-align: center;
+    padding-top: 40px;
+    width: fit-content;
+    margin: 0 auto;
+    transition: all .3s ease;
+    cursor: pointer;
+
+}
+
+h1:hover {
+
+    text-shadow: 1px 1px rgb(247, 244, 244);
+    transition: all .3s ease;
+
+}
+
+/*-- nav-- */
+.nav_bar {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.nav_bar_link {
+    color: rgb(231, 222, 222);
+    margin-right: 35px;
+    font-size: 20px;
+    transition: all .3s ease;
+    text-decoration: none;
+
+}
+
+.nav_bar_link:hover {
+
+
+    margin-right: 35px;
+    font-size: 20px;
+    transition: all .3s ease;
+    text-shadow: 1px 1px rgb(247, 244, 244);
+}
+
+.nav_bar_link:last-child {
+    margin-right: 0;
+}
+
+/*-- header-- */
+
+.main_header {
+    padding: 30px 100px 0px 100px;
+    display: flex;
+}
+
+.main_header_logo {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    background-image: url(./img/myPhoto.jpg);
+    border-radius: 100%;
+    background-position: 0px -56px;
+    background-repeat: no-repeat;
+    border: 1px rgb(229, 222, 222) solid;
+
+
+}
+
+.main_header_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 80px;
+    color: white;
+    font-family: cursive;
+}
+
+.main_header_name_proffesion {
+    font-size: 40px;
+    color: rgb(255, 169, 8);
+}
+
+
+
+/*-- header end-- */
+
+/*-- About-- */
+
+.about {}
+
+section {
+    padding: 0 100px 0 100px;
+}
+
+
+
+.header {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.header::after {
+    content: '';
+    background-color: rgb(80, 147, 199);
+    height: 1px;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+.about_header_text {
+    font-size: 18px;
+}
+
+/*-- About end-- */
