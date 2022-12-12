@@ -2,11 +2,16 @@ body,
 html {
     background-color: rgb(205, 197, 198);
     color: rgb(231, 222, 222);
+    scroll-behavior: smooth;
+}
+
+a {
+    color: rgb(248, 191, 191)
 }
 
 .wrapper {
     width: 1024px;
-    height: 1000px;
+    height: 5000px;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -138,3 +143,100 @@ section {
 }
 
 /*-- About end-- */
+
+/*-- Skills-- */
+.skills {}
+
+.skills_header {}
+
+
+
+.skills__ul__container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(46, 46, 63);
+    border-radius: 20px;
+
+}
+
+.skills__ul>li {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: end;
+    align-items: flex-end;
+
+}
+
+.skills__img {
+
+    position: relative;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    transition: .3s ease;
+}
+
+.skills__img:hover {
+    transition: .3s ease;
+    scale: 1.2;
+}
+
+
+progress {
+
+    height: 16px;
+    width: 230px;
+
+}
+
+
+
+/*-- Skills end-- */
+
+/*-- Experience-- */
+
+
+.experience__a {
+    display: block;
+    margin-top: 20px;
+}
+
+.experience_text {
+    text-align: center;
+}
+
+/*-- Experience end-- */
+
+
+/*-- Code-- */
+pre {
+
+    text-align: start;
+}
+
+/*-- Code end-- */
+
+/*--Education -- */
+
+.education__ul {
+    text-align: start;
+    font-size: 24px;
+
+}
+
+/*--Education end-- */
+
+
+
+
+.logo_rss {
+    width: 150px;
+    height: auto;
+    background-color: rgb(220, 199, 41);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.footer__container {
+    display: flex;
+}
