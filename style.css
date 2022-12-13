@@ -11,7 +11,7 @@ a {
 
 .wrapper {
     width: 1024px;
-    height: 5000px;
+    height: 100%;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -228,15 +228,32 @@ pre {
 
 
 
-
-.logo_rss {
-    width: 150px;
-    height: auto;
-    background-color: rgb(220, 199, 41);
-    border-radius: 10px;
-    overflow: hidden;
+.contacts__link>li>a>img{
+width: 100px;
+height: 100px;    
+}
+.contacts__link{
+    display: flex;
+    justify-content: center;
+}
+.contacts__link>li{
+    list-style-type: none;
+    margin-right: 20px;
+    transition: .3s all ease;
+}
+.contacts__link>li:last-child{
+    margin-right: 0px;
+}
+.contacts__link>li:hover{
+    scale: 1.3;
+    transition: .3s all ease;
 }
 
-.footer__container {
-    display: flex;
+
+
+.container__footer{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(46, 46, 63);
+    border-radius: 20px;
 }
