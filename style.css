@@ -10,36 +10,33 @@ a {
 }
 
 .wrapper {
-    width: 1024px;
+    max-width: 1024px;
     height: 100%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    background-color: rgb(65, 65, 96);
+    background-color: rgb(30, 24, 27);
     box-shadow: 14px 14px 36px 15px rgba(22, 22, 22, 0.2);
     border-radius: 80px;
 }
 
-
 h1 {
-
     text-align: center;
     padding-top: 40px;
     width: fit-content;
     margin: 0 auto;
     transition: all .3s ease;
     cursor: pointer;
-
 }
 
 h1:hover {
-
     text-shadow: 1px 1px rgb(247, 244, 244);
     transition: all .3s ease;
-
 }
 
 /*-- nav-- */
+
 .nav_bar {
     padding-top: 30px;
     display: flex;
@@ -47,18 +44,21 @@ h1:hover {
     flex-wrap: nowrap;
 }
 
-.nav_bar_link {
+.nav_bar>li {
     color: rgb(231, 222, 222);
     margin-right: 35px;
     font-size: 20px;
     transition: all .3s ease;
     text-decoration: none;
+    list-style-type: none;
+}
 
+.nav_bar>li>a {
+    color: rgb(231, 222, 222);
+    text-decoration: none;
 }
 
 .nav_bar_link:hover {
-
-
     margin-right: 35px;
     font-size: 20px;
     transition: all .3s ease;
@@ -77,16 +77,15 @@ h1:hover {
 }
 
 .main_header_logo {
-    width: 300px;
-    height: 300px;
-    background-color: #fff;
-    background-image: url(./img/myPhoto.jpg);
-    border-radius: 100%;
     background-position: 0px -56px;
     background-repeat: no-repeat;
-    border: 1px rgb(229, 222, 222) solid;
+}
 
-
+.main_header_logo>img {
+    width: 300px;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 5px 5px rgb(24, 53, 81);
 }
 
 .main_header_name {
@@ -105,23 +104,17 @@ h1:hover {
     color: rgb(255, 169, 8);
 }
 
-
-
 /*-- header end-- */
 
 /*-- About-- */
-
-.about {}
 
 section {
     padding: 0 100px 0 100px;
 }
 
-
-
 .header {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 40px;
     color: #fff;
     padding-bottom: 20px;
@@ -135,7 +128,6 @@ section {
     width: 100px;
     margin: 0 auto;
     margin-top: 10px;
-
 }
 
 .about_header_text {
@@ -145,11 +137,6 @@ section {
 /*-- About end-- */
 
 /*-- Skills-- */
-.skills {}
-
-.skills_header {}
-
-
 
 .skills__ul__container {
     display: flex;
@@ -164,11 +151,9 @@ section {
     text-transform: uppercase;
     text-align: end;
     align-items: flex-end;
-
 }
 
 .skills__img {
-
     position: relative;
     top: 15px;
     width: 40px;
@@ -183,18 +168,14 @@ section {
 
 
 progress {
-
     height: 16px;
     width: 230px;
 
 }
 
-
-
 /*-- Skills end-- */
 
 /*-- Experience-- */
-
 
 .experience__a {
     display: block;
@@ -209,8 +190,8 @@ progress {
 
 
 /*-- Code-- */
-pre {
 
+pre {
     text-align: start;
 }
 
@@ -221,39 +202,71 @@ pre {
 .education__ul {
     text-align: start;
     font-size: 24px;
-
 }
 
 /*--Education end-- */
 
 
+/*--contacts-- */
 
-.contacts__link>li>a>img{
-width: 100px;
-height: 100px;    
+.contacts__link>li>a>img {
+    width: 100px;
+    height: 100px;
 }
-.contacts__link{
+
+.contacts__link {
     display: flex;
     justify-content: center;
 }
-.contacts__link>li{
+
+.contacts__link>li {
     list-style-type: none;
     margin-right: 20px;
     transition: .3s all ease;
 }
-.contacts__link>li:last-child{
+
+.contacts__link>li:last-child {
     margin-right: 0px;
 }
-.contacts__link>li:hover{
+
+.contacts__link>li:hover {
     scale: 1.3;
     transition: .3s all ease;
 }
 
+/*--contacts end-- */
 
+/*--footer-- */
 
-.container__footer{
+.container__footer {
     width: 100%;
-    height: 200px;
+    height: 50px;
     background-color: rgb(46, 46, 63);
     border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 20px;
 }
+
+.footer__logo>a>img {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.footer__logo {
+    margin-right: 100px;
+}
+
+.footer__year {
+    color: rgb(169, 171, 175);
+}
+
+.autor>a {
+    text-decoration: none;
+    color: rgb(169, 171, 175);
+}
+
+/*--footer end-- */
