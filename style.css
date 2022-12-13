@@ -1,1 +1,272 @@
+body,
+html {
+    background-color: rgb(205, 197, 198);
+    color: rgb(231, 222, 222);
+    scroll-behavior: smooth;
+}
+
+a {
+    color: rgb(248, 191, 191)
+}
+
+.wrapper {
+    max-width: 1024px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(30, 24, 27);
+    box-shadow: 14px 14px 36px 15px rgba(22, 22, 22, 0.2);
+    border-radius: 80px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 40px;
+    width: fit-content;
+    margin: 0 auto;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+
+h1:hover {
+    text-shadow: 1px 1px rgb(247, 244, 244);
+    transition: all .3s ease;
+}
+
+/*-- nav-- */
+
+.nav_bar {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.nav_bar>li {
+    color: rgb(231, 222, 222);
+    margin-right: 35px;
+    font-size: 20px;
+    transition: all .3s ease;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav_bar>li>a {
+    color: rgb(231, 222, 222);
+    text-decoration: none;
+}
+
+.nav_bar_link:hover {
+    margin-right: 35px;
+    font-size: 20px;
+    transition: all .3s ease;
+    text-shadow: 1px 1px rgb(247, 244, 244);
+}
+
+.nav_bar_link:last-child {
+    margin-right: 0;
+}
+
+/*-- header-- */
+
+.main_header {
+    padding: 30px 100px 0px 100px;
+    display: flex;
+}
+
+.main_header_logo {
+    background-position: 0px -56px;
+    background-repeat: no-repeat;
+}
+
+.main_header_logo>img {
+    width: 300px;
+    height: auto;
+    border-radius: 40px;
+    box-shadow: 5px 5px rgb(24, 53, 81);
+}
+
+.main_header_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 80px;
+    color: white;
+    font-family: cursive;
+}
+
+.main_header_name_proffesion {
+    font-size: 40px;
+    color: rgb(255, 169, 8);
+}
+
+/*-- header end-- */
+
+/*-- About-- */
+
+section {
+    padding: 0 100px 0 100px;
+}
+
+.header {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.header::after {
+    content: '';
+    background-color: rgb(80, 147, 199);
+    height: 1px;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.about_header_text {
+    font-size: 18px;
+}
+
+/*-- About end-- */
+
+/*-- Skills-- */
+
+.skills__ul__container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(46, 46, 63);
+    border-radius: 20px;
+
+}
+
+.skills__ul>li {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-align: end;
+    align-items: flex-end;
+}
+
+.skills__img {
+    position: relative;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    transition: .3s ease;
+}
+
+.skills__img:hover {
+    transition: .3s ease;
+    scale: 1.2;
+}
+
+
+progress {
+    height: 16px;
+    width: 230px;
+
+}
+
+/*-- Skills end-- */
+
+/*-- Experience-- */
+
+.experience__a {
+    display: block;
+    margin-top: 20px;
+}
+
+.experience_text {
+    text-align: center;
+}
+
+/*-- Experience end-- */
+
+
+/*-- Code-- */
+
+pre {
+    text-align: start;
+}
+
+/*-- Code end-- */
+
+/*--Education -- */
+
+.education__ul {
+    text-align: start;
+    font-size: 24px;
+}
+
+/*--Education end-- */
+
+
+/*--contacts-- */
+
+.contacts__link>li>a>img {
+    width: 100px;
+    height: 100px;
+}
+
+.contacts__link {
+    display: flex;
+    justify-content: center;
+}
+
+.contacts__link>li {
+    list-style-type: none;
+    margin-right: 20px;
+    transition: .3s all ease;
+}
+
+.contacts__link>li:last-child {
+    margin-right: 0px;
+}
+
+.contacts__link>li:hover {
+    scale: 1.3;
+    transition: .3s all ease;
+}
+
+/*--contacts end-- */
+
+/*--footer-- */
+
+.container__footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(46, 46, 63);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.footer__logo>a>img {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.footer__logo {
+    margin-right: 100px;
+}
+
+.footer__year {
+    color: rgb(169, 171, 175);
+}
+
+.autor>a {
+    text-decoration: none;
+    color: rgb(169, 171, 175);
+}
+/*--footer end-- */
 
