@@ -1,7 +1,7 @@
 #  Sergey Nikitin.
 # Contacts:
 
-*Tel: +7 999 876 22 33
+*Tel: +7 999 876 22 32
 
 *Mail: F-frozen-93@mail.ru
 
